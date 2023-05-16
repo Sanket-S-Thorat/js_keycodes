@@ -1,0 +1,89 @@
+@font-face {
+    font-family: myfont;
+    src: url('./GlitchGoblin.woff') format('woff');
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 60px;
+    height: 60px;
+    padding-right: 30px;
+  }
+  
+  .name {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0;
+    color: #28e12f;
+    font-family: myfont;
+  }
+
+.info {
+    text-align: center;
+}
+
+.info>h4 {
+    display: inline-block;
+    font-size: 24px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info>h1 {
+    font-size: 108px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 15vw;
+  margin: 0.5rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px #28e12f(0, 0, 0, 0.1);
+}
+
+.card-content h2 {
+  font-size: 1rem;
+  color: #28e12f;
+  font-family: myfont;
+  padding: 0.3rem;
+  background-color: black;
+  text-align: center;
+}
+
+.card-content p {
+  font-size: 1rem;
+  padding: 0rem 0.1rem;
+}
+.card-content h1 {
+  background-color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.before {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.before h2 {
+    margin-top: 25vh;
+    padding: 2em;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: azure;
+}
+  

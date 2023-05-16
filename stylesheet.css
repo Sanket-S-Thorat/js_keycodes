@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Glitch Goblin';
+    src: url('GlitchGoblin.woff2') format('woff2'),
+        url('GlitchGoblin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
